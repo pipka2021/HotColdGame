@@ -5,24 +5,6 @@ namespace ефеф
 {
     class Program
     {
-        void Main_z1(string[] args)
-        {
-            int a = 0;
-
-            do
-            {
-                Console.Write("Input:");
-                Int32.TryParse(Console.ReadLine(), out a);
-
-                if (a == 0 || Convert.ToString(a).Length != 3) 
-                {
-                    Console.WriteLine("Нужно ввести 3-х значное число.\n");
-                }
-                else break;
-            } while (true);
-
-            Console.WriteLine(Convert.ToString(a)[1]);
-        }
         static void Main(string[] args)
         {
             int a = 0;
